@@ -1,0 +1,22 @@
+.bod{
+    background-color: rgb(217, 241, 255);
+    display: flex;
+    margin: -20px 15px;
+    background-image: url(background-image.jpeg);
+}
+
+
+.title{
+    
+    justify-content: flex-start;
+    font-size: 50px;
+    color: rgb(78, 78, 78);
+    background-image: url(background-image.jpeg);
+
+
+}
+
+.list{
+    margin-top: -30px;
+}
+
