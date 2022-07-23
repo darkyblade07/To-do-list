@@ -17,6 +17,7 @@ window.onload = function () {
         if (input.value === "") {
 
         } else {
+            
             myToDo.push(input.value)
             render()
             input.value = ""
@@ -33,6 +34,7 @@ window.onload = function () {
         </li>`
         });
 
+        localStorage.setItem('Task:', list);
         ul.innerHTML = list
 
     }
@@ -40,7 +42,9 @@ window.onload = function () {
     function clearLi() {
 
         ul.innerHTML = ""
+        localStorage.clear()
         text.innerHTML = `Congrats for finishing your day! Keep it up`
+        saveBtn.disabled = true;
     }
 
 }

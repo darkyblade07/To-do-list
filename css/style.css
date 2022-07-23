@@ -3,13 +3,13 @@
     display: flex;
     margin: -20px 15px;
     background-image: url(background-image.jpeg);
+    justify-content: center;
 }
 
 
 .title{
     
-    justify-content: flex-start;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(78, 78, 78);
     background-image: url(background-image.jpeg);
 
@@ -17,6 +17,24 @@
 }
 
 .list{
-    margin-top: -30px;
+    margin-top: 50px;
 }
 
+.input{
+background-color: rgb(250, 235, 215);
+border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+}
+
+.btn{
+    background-color: rgb(250, 235, 215);
+}
+
+.btnClear{
+    background-color: #F71D18;
+}
+
+p{
+    font-size: 20px;
+}
